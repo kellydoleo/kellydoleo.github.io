@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Creative Preview](https://assets.startbootstrap.com/img/screenshots/themes/creative.png)](https://startbootstrap.github.io/startbootstrap-creative/)
+[![Creative Preview]()
 
 **[View Live Preview](https://startbootstrap.github.io/startbootstrap-creative/)**
 
