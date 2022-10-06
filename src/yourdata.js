@@ -22,13 +22,13 @@ export default {
     //Line 1 For Header
     "A full-stack software engineer",
     //Line 2 For Header
-    "based in D.C.",
+    "based in Philly",
     //Line 3 For Header
-    "currently at Comcast NBCUniversal",
+    "",
   ],
   //   Header Paragraph
   headerParagraph:
-    "",
+    "currently at Comcast NBCUniversal",
 
   //Contact Email
   contactEmail: "kellydeoleo@gmail.com",
