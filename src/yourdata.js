@@ -12,12 +12,20 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+// images 
+import kellyPic from "./images/kelly-doleo.jpg"
+import remedy from "./images/Remedy.png"
+import bobaStory from "./images/boba-story.png"
+import stopMotion from "./images/stop-motion.png"
+import miniGame from "./images/mini-game.png"
+import xfinity from "./images/xfinity-app.png"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "Kelly",
+  name: "Kelly D'oleo",
   headerTagline: [
     //Line 1 For Header
     "A full-stack software engineer",
@@ -38,54 +46,54 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "My Remedy", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "An app dedicated to sharing and building your menstrual remedy. My Remedy allows people to login and access the community guide of tips, advice, and shared holistic healthcare practices surrounding menstrual health.", // Add Your Service Type Here
       //Project Image - Add Your Project Imagxe Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        remedy,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "http://my-remedy.herokuapp.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Boba Story", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "A bubble tea mobile game under Honey B Games. I currently assist with updating the mobile game in Unity and Java", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        bobaStory,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.bubbleteagame.com/boba-story",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Mini Game", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Using Unity and C#, I built a micro game that resembles a micro game in the mobile game Among Us.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        miniGame,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://play.unity.com/mg/other/microgame-294",
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
+      title: "Xfinity App", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Collaborate daily with product manager and UX designers to develop native customer facing features within the Xfinity iOS application using UIKit and SwiftUI frameworks", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        xfinity,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://www.xfinity.com/apps",
     },
     {
-      title: "Project Five", //Project Title - Add Your Project Title Here
+      title: "Creative Coding", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "As a student in Creative Coding at NYU IDM MicroMaster's Program, I created a stop motion animation", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        stopMotion,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://openprocessing.org/sketch/1617268",
     },
     {
       title: "Project Six", //Project Title - Add Your Project Title Here
@@ -119,7 +127,7 @@ export default {
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    kellyPic,
 
   //   End About Section ---------------------
 
