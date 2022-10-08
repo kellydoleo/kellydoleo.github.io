@@ -19,6 +19,7 @@ import bobaStory from "./images/boba-story.png"
 import stopMotion from "./images/stop-motion.png"
 import miniGame from "./images/mini-game.png"
 import xfinity from "./images/xfinity-app.png"
+import mlModel from "./images/ml-model-video.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -30,7 +31,7 @@ export default {
     //Line 1 For Header
     "A full-stack software engineer",
     //Line 2 For Header
-    "based in Philly",
+    "",
     //Line 3 For Header
     "",
   ],
@@ -46,6 +47,56 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      title: "Xfinity App", //Project Title - Add Your Project Title Here
+      para:
+        "I collaborate daily with product managers and UX designers to develop native customer facing features within the Xfinity iOS application using UIKit and SwiftUI frameworks", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        xfinity,
+      //Project URL - Add Your Project Url Here
+      url: "https://www.xfinity.com/apps",
+    },
+    {
+      title: "Boba Story", //Project Title - Add Your Project Title Here
+      para:
+      "A bubble tea mobile game under Honey B Games. I currently assist with updating the mobile game in Unity and C#", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      bobaStory,
+      //Project URL - Add Your Project Url Here
+      url: "https://www.bubbleteagame.com/boba-story",
+    },
+    {
+      title: "Mini Game", //Project Title - Add Your Project Title Here
+      para:
+      "Using Unity and C#, I built a game that resembles a micro game in the mobile game Among Us.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      miniGame,
+      //Project URL - Add Your Project Url Here
+      url: "https://play.unity.com/mg/other/microgame-294",
+    },
+    {
+      title: "Computer Vision", //Project Title - Add Your Project Title Here
+      para:
+      "As a student in Media Theory at NYU's MicroMasters Integrated Design and Media program at edX, I used computer vision to create a machine learning model that could detect whether I was holding a figurine or not.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      mlModel,
+      //Project URL - Add Your Project Url Here
+      url: "https://drive.google.com/file/d/1otNzUfx2iq3usytapGIpuIKzow3x9Ovi/view",
+    },
+    {
+      title: "Creative Coding", //Project Title - Add Your Project Title Here
+      para:
+      "As a student in Creative Coding at NYU IDM MicroMaster's Program, I created a stop motion animation", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      stopMotion,
+      //Project URL - Add Your Project Url Here
+      url: "https://openprocessing.org/sketch/1617268",
+    },
+    {
       title: "My Remedy", //Project Title - Add Your Project Title Here
       para:
         "An app dedicated to sharing and building your menstrual remedy. My Remedy allows people to login and access the community guide of tips, advice, and shared holistic healthcare practices surrounding menstrual health.", // Add Your Service Type Here
@@ -54,57 +105,7 @@ export default {
         remedy,
       //Project URL - Add Your Project Url Here
       url: "http://my-remedy.herokuapp.com/",
-    },
-    {
-      title: "Boba Story", //Project Title - Add Your Project Title Here
-      para:
-        "A bubble tea mobile game under Honey B Games. I currently assist with updating the mobile game in Unity and Java", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        bobaStory,
-      //Project URL - Add Your Project Url Here
-      url: "https://www.bubbleteagame.com/boba-story",
-    },
-    {
-      title: "Mini Game", //Project Title - Add Your Project Title Here
-      para:
-        "Using Unity and C#, I built a micro game that resembles a micro game in the mobile game Among Us.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        miniGame,
-      //Project URL - Add Your Project Url Here
-      url: "https://play.unity.com/mg/other/microgame-294",
-    },
-    {
-      title: "Xfinity App", //Project Title - Add Your Project Title Here
-      para:
-        "Collaborate daily with product manager and UX designers to develop native customer facing features within the Xfinity iOS application using UIKit and SwiftUI frameworks", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        xfinity,
-      //Project URL - Add Your Project Url Here
-      url: "https://www.xfinity.com/apps",
-    },
-    {
-      title: "Creative Coding", //Project Title - Add Your Project Title Here
-      para:
-        "As a student in Creative Coding at NYU IDM MicroMaster's Program, I created a stop motion animation", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        stopMotion,
-      //Project URL - Add Your Project Url Here
-      url: "https://openprocessing.org/sketch/1617268",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
+    }
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -121,11 +122,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "There is an incentive to design cheap, easy, and “good” (good in the sense that fast food is good), for capital means, but do these things offer meaning to life? How do we create technology that is sensitive to people and their emotions? I'm interested in researching and redesigning the ways in which our daily digital interfaces can be more human-friendly.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Having pursued Biology at Wesleyan University, my introduction to programming was through bioinformatics. I loved how we utilized technology to interpret DNA more efficiently. Thus, I began my journey on researching and designing human-centered technologies for improved experiences",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "I'm currently an iOS Engineer at Comcast NBCUniversal working on the IoT Client Squad in Connected Living. I develop features to connect and interact with various IoT devices, such as sensors, thermostats, door locks and lights, over MQTT protocol.",
   aboutImage:
     kellyPic,
 
@@ -179,7 +180,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/kellydoleo" },
