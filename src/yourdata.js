@@ -20,6 +20,8 @@ import stopMotion from "./images/stop-motion.png"
 import miniGame from "./images/mini-game.png"
 import xfinity from "./images/xfinity-app.png"
 import mlModel from "./images/ml-model-video.png"
+import triviaNight from "./images/Trivia_Night.png"
+import particleSystem from "./images/particleSystem.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -105,6 +107,26 @@ export default {
         remedy,
       //Project URL - Add Your Project Url Here
       url: "http://my-remedy.herokuapp.com/",
+    },
+    {
+      title: "Trivia Night", //Project Title - Add Your Project Title Here
+      para:
+        "A trivia app you can play alone or with friends. This was built using React and Node.js.", // Add Your Service Type Here
+      //Project Image - Add Your Project Imagxe Here
+      imageSrc:
+        triviaNight,
+      //Project URL - Add Your Project Url Here
+      url: "https://trivia-app-two.vercel.app/",
+    },
+    {
+      title: "Creative Coding: Particle System", //Project Title - Add Your Project Title Here
+      para:
+        "As a student in Creative Coding at NYU IDM MicroMaster's Program, I created a particle system interaction", // Add Your Service Type Here
+      //Project Image - Add Your Project Imagxe Here
+      imageSrc:
+        particleSystem,
+      //Project URL - Add Your Project Url Here
+      url: "https://openprocessing.org/sketch/1604773",
     }
 
     /*
